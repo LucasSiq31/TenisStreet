@@ -1,0 +1,97 @@
+body{
+    margin: 0 auto;
+    font-size: xx-large;
+}
+/* -- Cabeçalho -- */
+header{
+    background-color: rgb(32, 32, 32);
+    height: 90px;
+}
+.cabecalho{
+    background-color: rgb(32, 32, 32);
+    height: 90px;
+}
+.logo{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    color: white;
+    width: 45px;
+    height: 45px;
+    margin: 22.5px;
+}
+
+/* -- Caixa Login -- */
+main{
+    display: flex;
+    justify-content: center
+}
+.login{
+    border: 2px solid rgb(71, 71, 71);
+    border-radius: 25px;
+    padding: 50px;
+    text-align: center;
+    font-size: xx-large;
+    width: 500px;
+    margin-top: 200px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.input{
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    border: white;
+    background-color: rgb(214, 214, 214);
+    color: black;
+    font-size: large;
+    margin-bottom: 40px;
+}
+.entrar{
+    width: 90%;
+    height: 50px;
+    border-radius: 15px;
+    border: white;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: x-large;
+}
+.entrar:hover{
+    background-color: #198754;
+    border: green;
+    transition: 0,5s;
+}
+
+@media screen and (max-width: 799px){
+    .login{
+        margin: 30px;
+    }
+    .cabecalho{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 500px){
+    .login{
+        margin: 10px;
+    }
+    .logo{
+        height: 60px;
+    }
+    .icon{
+        width: 35px;
+        height: 35px;
+    }
+    .cabecalho{
+        display: flex;
+        justify-content: center;
+    }
+    header{
+        height: 70px;
+    }
+    .cabecalho{
+        height: 70px;
+    }
+}
+
